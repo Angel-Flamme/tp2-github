@@ -1,5 +1,17 @@
-# TP n°2 : GitHub
+# Bienvenue
 
-Ceci est un bon début !
+Programme C++ qui affiche "Bienvenue le monde !"
 
-Une modification réalisée sur le dépôt distant.
+## Fabrication
+
+```sh
+$ g++ -Wall -c bienvenue.cpp
+$ g++ -o bienvenue.out bienvenue.o
+```
+
+## Utilisation
+
+```sh
+$ ./bienvenue.out
+Bienvenue le monde !
+```
